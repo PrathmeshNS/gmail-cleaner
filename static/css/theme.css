@@ -1,0 +1,24 @@
+:root {
+  --bg: #0b1220;
+  --bg-secondary: #111827;
+  --card: rgba(17, 24, 39, 0.8);
+  --border: rgba(255, 255, 255, 0.08);
+  --text: #f3f4f6;
+  --muted: #94a3b8;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --danger: #ef4444;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --radius: 20px;
+}
+
+body.light {
+  --bg: #f8fafc;
+  --bg-secondary: #ffffff;
+  --card: rgba(255, 255, 255, 0.85);
+  --border: rgba(15, 23, 42, 0.08);
+  --text: #0f172a;
+  --muted: #64748b;
+}

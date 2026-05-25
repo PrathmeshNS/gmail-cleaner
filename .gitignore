@@ -1,0 +1,49 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv
+.github
+
+
+# OAuth tokens (sensitive - user specific)
+token.json
+token.json.backup
+
+# Credentials (sensitive - keep secret!)
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+.coderabbit.yaml
+.pre-commit-config.yaml
+pyproject.toml
+
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal notes (not committed)
+IMPROVEMENTS.md
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+
+
+# Test/Coverage artifacts
+.coverage
+.pytest_cache/
+htmlcov/
+coverage.xml
+tests
+test-plan
+
+# GitHub Copilot instructions (user specific)
+.github/copilot-instructions.md
+gmail_cleaner_modern_ui_refactor_pack.md
+media/demo.mp4
+media/demo.gif
